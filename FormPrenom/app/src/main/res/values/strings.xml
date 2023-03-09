@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Formulaire</string>
+    <string name="champNom">Nom: </string>
+    <string name="champPrenom">Prenom: </string>
+    <string name="modifNom">Saisissez votre nom</string>
+    <string name="modifPrenom">Saisissez votre prenom </string>
+    <string name="bValider">VALIDER </string>
+    <string name="bAnnuler">ANNULER </string>
+
+    <string name="app_name2">ScootMobv2</string>
+    <string name="label_et_nb_pizzas">Saisir le nombre de pizzas : </string>
+    <string name="label_nb_pizzas_envoyees"> Nombre de pizzas saisies : </string>
+    <string name="label_bouton_envoyer">Envoyer</string>
+    <string name="label_bouton_retourner">Retourner</string>
+</resources>

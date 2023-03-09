@@ -1,0 +1,10 @@
+<resources>
+        <string name="app_name">ScootMobv2</string>
+        <string name="label_et_nb_pizzas">Saisir le nombre de pizzas : </string>
+        <string name="label_nb_pizzas_envoyees"> Nombre de pizzas saisies : </string>
+        <string name="label_bouton_envoyer">Envoyer</string>
+        <string name="label_bouton_retourner">Retourner</string>
+
+
+</resources>
+

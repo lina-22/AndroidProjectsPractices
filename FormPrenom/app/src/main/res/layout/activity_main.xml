@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_nom"
+            android:text="@string/champNom"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textColor="#8552EC"
+            />
+        <EditText
+            android:id="@+id/et_nom"
+            android:text="@string/modifNom"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textColor="#8552EC"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_prenom"
+            android:text="@string/champPrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:textColor="#8552EC"
+            />
+
+        <EditText
+            android:id="@+id/et_prenom"
+            android:text="@string/modifPrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:textColor="#8552EC"
+
+            />
+    </LinearLayout>
+    <!-- android:textColor="#06C800" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_valider"
+            android:text="@string/bValider"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:textColor="#00FF74"
+            android:onClick="bValider"
+
+            />
+
+        <Button
+            android:id="@+id/bt_annuler"
+            android:text="@string/bAnnuler"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:textColor="#F00"
+            android:onClick="bAnnuler"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
